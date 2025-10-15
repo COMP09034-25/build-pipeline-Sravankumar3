@@ -1,6 +1,8 @@
 spring:
-    application:
+    application: 
         name: catalog_service
+    profiles: 
+        active: dev 
 
 management:
     endpoints:
@@ -16,3 +18,7 @@ server:
     threads:
       max: 50
       min-spare: 5
+
+atu: 
+    greeting: Welcome to the local book catalog!
+
